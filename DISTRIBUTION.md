@@ -102,9 +102,10 @@ Optional: the community tool `mcp-submit` pushes to 10+ directories in a single 
 
 Suggested listing blurb:
 
-> **compass-mcp** — Ground your LLM in EU financial, crypto and AI regulation (MiCA, DORA, the AML
-> package, the AI Act, GDPR and more). Two tools: `compass_retrieve` (top governing provisions,
-> verbatim and article-cited) and `compass_verify` (is this quote real?). Needs a free Compass API key.
+> compass-mcp: ground your LLM in EU financial, crypto and AI regulation (MiCA, DORA, the AML package,
+> the AI Act, GDPR). One engine, two calls: `compass_retrieve` pulls the governing provisions verbatim
+> and article-cited, `compass_verify` checks a quote against the source. Free Compass API key to start,
+> then pay-as-you-go.
 
 ---
 

@@ -1,24 +1,29 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.LicentiumIO/compass-mcp",
   "description": "Ground your LLM in EU financial, crypto and AI regulation, verbatim and cited, via Compass.",
-  "version": "1.0.1",
+  "title": "Compass",
+  "websiteUrl": "https://compass.licentium.ai/developers",
   "repository": {
     "url": "https://github.com/LicentiumIO/compass-mcp",
     "source": "github"
   },
+  "version": "1.0.1",
   "packages": [
     {
-      "registry_type": "npm",
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "@licentium/compass-mcp",
       "version": "1.0.1",
-      "transport": { "type": "stdio" },
-      "environment_variables": [
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
         {
           "name": "COMPASS_API_KEY",
           "description": "Your ck_live_ key from https://compass.licentium.ai/developers",
-          "is_required": true,
-          "is_secret": true
+          "isRequired": true,
+          "isSecret": true
         }
       ]
     }
