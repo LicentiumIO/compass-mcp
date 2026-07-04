@@ -1,0 +1,54 @@
+{
+  "name": "@licentium/compass-mcp",
+  "version": "1.0.1",
+  "description": "MCP server for Compass: ground your LLM in EU financial, crypto and AI regulation, verbatim and cited.",
+  "mcpName": "io.github.LicentiumIO/compass-mcp",
+  "type": "module",
+  "bin": {
+    "compass-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "compass",
+    "eu-regulation",
+    "mica",
+    "dora",
+    "legal",
+    "grounding",
+    "citations"
+  ],
+  "license": "MIT",
+  "author": "Licentium (https://licentium.ai)",
+  "homepage": "https://compass.licentium.ai/developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LicentiumIO/compass-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LicentiumIO/compass-mcp/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
